@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta informasi untuk pengaturan charset dan viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhyvia's RVOU Assignment</title>
+    <!-- Link ke stylesheet eksternal untuk styling halaman -->
+    <link rel="stylesheet" href="CSS/DHYVIA-RVOU.css">
+</head>
+
+<body>
+
+    <!-- Header halaman -->
+    <header>
+        <div class="header-content">
+            <!-- Judul dan informasi kontak -->
+            <h2>Dhyvia’s RVOU Assignment</h2>
+            <p>Contact Person: dpandiangan.win@gmail.com</p>
+        </div>
+    </header>
+
+    <!-- Bagian utama konten halaman -->
+    <main>
+        <div class="main-container">
+       
+        <!-- Kalkulator BMI -->
+        <div class="bmi-calculator">
+            <h1>Kalkulator BMI</h1>
+            <form id="bmiForm">
+                <!-- Pilihan jenis kelamin -->
+                <label for="gender">Jenis Kelamin</label>
+                <select id="gender">
+                    <option value="">Pilih Jenis kelamin</option>
+                    <option value="male">Laki-laki</option>
+                    <option value="female">Perempuan</option>
+                </select>
+                <span id="genderError" class="error"></span>
+
+                <!-- Input untuk tinggi badan -->
+                <label for="height">Tinggi Badan (Cm)</label>
+                <input type="text" id="height" placeholder="Masukkan tinggi badan">
+
+                <!-- Input untuk berat badan -->
+                <label for="weight">Berat Badan (Kg)</label>
+                <input type="text" id="weight" placeholder="Masukkan berat badan">
+
+                <!-- Tombol untuk menghitung BMI -->
+                <button type="submit" id="calculateBtn">Hitung BMI</button>
+            </form>
+
+            <!-- Informasi tentang BMI -->
+            <div class="bmi-info">
+            <h3>BMI (Body Mass Index): Solusi Cerdas untuk Kesehatan Optimal!</h3>
+            <p>Cari cara cepat dan mudah untuk memantau kesehatan tubuh? BMI adalah jawabannya! Dengan hanya menghitung berat badan dan tinggi badan Anda, BMI memberikan indikator jelas apakah berat badan Anda sehat, kekurangan, atau kelebihan.</p>
+                <br>
+                <br>
+                <ul>
+                    <li><strong>Cepat & Mudah:</strong> Hitung hanya dengan dua data sederhana!</li>
+                    <li><strong>Evaluasi Sehat:</strong> Bantu mengidentifikasi risiko kesehatan lebih awal.</li>
+                    <li><strong>Kesesuaian Global:</strong> Digunakan secara internasional untuk standar kesehatan.</li>
+                    <li><strong>BMI:</strong> Alat cerdas untuk menjaga tubuh tetap fit dan sehat!</li>
+                </ul>
+            </div>
+            
+        </div>
+
+        <!-- Hasil dari perhitungan BMI -->
+        <div class="bmi-result">
+            <h1>Hasil BMI</h1>
+            <div id="bmiValue"></div>
+            <div id="bmiDescription"></div>
+        </div>
+
+        </div>
+    </main>
+
+    <!-- Footer halaman -->
+    <footer>
+        <p>2024 DHYVIA – RVOU. ALL RIGHTS RESERVED</p>
+    </footer>
+
+    <!-- Link ke file JavaScript eksternal untuk interaktivitas -->
+    <script src="JS/DHYVIA-RVOU.js"></script>
+</body>
+</html>

@@ -1,0 +1,173 @@
+/* Mengatur margin, padding, dan box-sizing untuk elemen-elemen dasar */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gaya dasar untuk body halaman */
+body {
+    font-family: Arial, sans-serif; /* Font keluarga untuk teks */
+    background-color: #fff; /* Warna latar belakang halaman */
+    color: #333; /* Warna teks default */
+}
+
+/* Gaya untuk header halaman */
+header {
+    background-color: #FFE500; /* Warna latar belakang header */
+    padding: 40px; /* Jarak di sekitar konten header */
+    text-align: center; /* Menyelaraskan teks di tengah header */
+    margin-bottom: 85px; /* Jarak bawah header dari elemen berikutnya */
+}
+
+/* Gaya untuk konten dalam header */
+.header-content h2 {
+    font-size: 24px; /* Ukuran font untuk judul di header */
+    color: #858fa3; /* Warna teks untuk judul */
+    margin-bottom: 3px; /* Jarak bawah judul */
+    text-align: left; /* Menyelaraskan teks ke kiri */
+    opacity: 80%; /* Transparansi teks */
+    position: relative;
+    top: 10px; /* Posisi teks sedikit ke bawah */
+}
+
+/* Gaya untuk paragraf di dalam header */
+.header-content p {
+    font-size: 14px; /* Ukuran font untuk teks paragraf */
+    color: #858fa3; /* Warna teks paragraf */
+    text-align: right; /* Menyelaraskan teks ke kanan */
+}
+
+/* Gaya untuk kontainer utama */
+.main-container {
+    display: flex; /* Menampilkan elemen anak secara fleksibel */
+    margin: 20px; /* Jarak di sekitar kontainer utama */
+}
+
+/* Gaya untuk kalkulator BMI */
+.bmi-calculator {
+    flex: 1; /* Mengambil ruang yang tersedia */
+    padding: 20px; /* Jarak di sekitar konten */
+    border: 1px solid #ddd; /* Garis batas kalkulator */
+    background-color: #f9f9f9; /* Warna latar belakang kalkulator */
+}
+
+/* Gaya untuk judul di kalkulator BMI */
+.bmi-calculator h1 {
+    font-size: 50px; /* Ukuran font untuk judul */
+    margin-bottom: 20px; /* Jarak bawah judul */
+    text-align: center; /* Menyelaraskan teks di tengah */
+}
+
+/* Gaya untuk label dalam formulir kalkulator BMI */
+.bmi-calculator form label {
+    display: block; /* Menampilkan label sebagai blok */
+    margin-bottom: 5px; /* Jarak bawah label */
+}
+
+/* Gaya untuk input dan select dalam formulir kalkulator BMI */
+.bmi-calculator form input, 
+.bmi-calculator form select {
+    width: 100%; /* Lebar penuh elemen */
+    padding: 10px; /* Jarak di dalam elemen */
+    margin-bottom: 15px; /* Jarak bawah elemen */
+    border: 1px solid #ddd; /* Garis batas elemen */
+    border-radius: 4px; /* Sudut membulat pada elemen */
+}
+
+/* Gaya untuk tombol dalam formulir kalkulator BMI */
+.bmi-calculator form button {
+    background-color: #FFE500; /* Warna latar belakang tombol */
+    color: #003399; /* Warna teks tombol */
+    padding: 10px 15px; /* Jarak di dalam tombol */
+    border: none; /* Tanpa garis batas */
+    cursor: pointer; /* Menampilkan cursor pointer saat hover */
+    font-weight: bold; /* Menebalkan teks tombol */
+    border-radius: 4px; /* Sudut membulat pada tombol */
+}
+
+/* Gaya untuk informasi BMI */
+.bmi-info {
+    margin-top: 20px; /* Jarak atas informasi BMI */
+}
+
+/* Gaya untuk judul dalam informasi BMI */
+.bmi-info h3 {
+    font-size: 16px; /* Ukuran font untuk judul */
+    margin-bottom: 10px; /* Jarak bawah judul */
+}
+
+/* Gaya untuk daftar dalam informasi BMI */
+.bmi-info ul {
+    list-style-type: disc; /* Tipe penanda daftar */
+    padding-left: 20px; /* Jarak kiri daftar */
+}
+
+/* Gaya untuk item dalam daftar informasi BMI */
+.bmi-info ul li {
+    margin-bottom: 10px; /* Jarak bawah item daftar */
+}
+
+/* Gaya untuk hasil perhitungan BMI */
+.bmi-result {
+    flex: 1; /* Mengambil ruang yang tersedia */
+    margin-left: 20px; /* Jarak kiri dari elemen sebelahnya */
+    padding: 20px; /* Jarak di sekitar konten */
+    border: 1px solid #ddd; /* Garis batas hasil BMI */
+    background-color: #fff; /* Warna latar belakang hasil BMI */
+}
+
+/* Gaya untuk judul dalam hasil BMI */
+.bmi-result h1 {
+    font-size: 50px; /* Ukuran font untuk judul */
+    margin-bottom: 145px; /* Jarak bawah judul */
+    text-align: center; /* Menyelaraskan teks di tengah */
+}
+
+/* Gaya untuk nilai BMI */
+#bmiValue {
+    font-size: 40px; /* Ukuran font untuk nilai BMI */
+    font-weight: bold; /* Menebalkan teks nilai BMI */
+    color: #003399; /* Warna teks nilai BMI */
+    margin-bottom: 20px; /* Jarak bawah nilai BMI */
+    text-align: center; /* Menyelaraskan teks di tengah */
+}
+
+/* Gaya untuk deskripsi BMI */
+#bmiDescription {
+    font-size: 20px; /* Ukuran font untuk deskripsi BMI */
+    text-align: center; /* Menyelaraskan teks di tengah */
+}
+
+/* Gaya untuk footer halaman */
+footer {
+    background-color: #FFE500; /* Warna latar belakang footer */
+    text-align: center; /* Menyelaraskan teks di tengah */
+    padding: 10px 0; /* Jarak di sekitar konten footer */
+    margin-top: 20px; /* Jarak atas footer */
+    position: fixed; /* Posisi tetap di bawah halaman */
+    bottom: 0; /* Menempel di bawah halaman */
+    width: 100%; /* Lebar penuh footer */
+}
+
+/* Gaya untuk teks dalam footer */
+footer p {
+    color: #003399; /* Warna teks footer */
+    font-size: 14px; /* Ukuran font untuk teks footer */
+}
+
+/* Gaya untuk elemen dengan kelas error */
+.error {
+    border-color: #FF0000; /* Warna batas untuk elemen error */
+}
+
+/* Gaya untuk pesan error */
+.error-message {
+    color: #FF0000; /* Warna teks pesan error */
+    font-size: 12px; /* Ukuran font untuk pesan error */
+}
+
+/* Mengatur zoom halaman */
+html {
+    zoom: 95%; /* Mengatur tingkat zoom untuk keseluruhan halaman */
+}
